@@ -1,4 +1,4 @@
-# LayerZero Template
+# LayerZero Boilerplate
 
 ## Overview
 
