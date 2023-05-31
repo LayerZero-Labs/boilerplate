@@ -1,0 +1,34 @@
+{
+	"goerli": {
+		"name": "ExampleOFTV2",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "bsc-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+			}
+		]
+	},
+	"bsc-testnet": {
+		"name": "ExampleOFTV2",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+			}
+		]
+	}
+}

@@ -1,0 +1,73 @@
+{
+  "proxyContractConfig": {
+    "chain": "fuji",
+    "name": "ExampleProxyOFTWithFee"
+  },
+  "contractConfig": {
+    "name": "ExampleOFTWithFee"
+  },
+  "chainConfig": {
+    "fuji": {
+      "defaultFeeBp": 0,
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-goerli":  {
+          "feeBpConfig": {
+            "enabled": false,
+            "feeBp": 0
+          },
+          "minDstGasConfig": [2000000, 3200000]
+        },
+        "bsc-testnet":  {
+          "feeBpConfig": {
+            "enabled": false,
+            "feeBp": 0
+          },
+          "minDstGasConfig": [100000, 160000]
+        }
+      }
+    },
+    "bsc-testnet": {
+      "defaultFeeBp": 5,
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum-goerli":  {
+          "feeBpConfig": {
+            "feeBp": 0,
+            "enabled": false
+          },
+          "minDstGasConfig": [2000000, 3200000]
+        },
+        "fuji":  {
+          "feeBpConfig": {
+            "feeBp": 0,
+            "enabled": false
+          },
+          "minDstGasConfig": [100000, 160000]
+        }
+      }
+    },
+    "arbitrum-goerli": {
+      "defaultFeeBp": 0,
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "bsc-testnet":  {
+          "feeBpConfig": {
+            "feeBp": 0,
+            "enabled": false
+          },
+          "minDstGasConfig": [100000, 160000]
+        },
+        "fuji":  {
+          "feeBpConfig": {
+            "feeBp": 0,
+            "enabled": false
+          },
+          "minDstGasConfig": [100000, 160000]
+        }
+      }
+    }
+
+  }
+}
+

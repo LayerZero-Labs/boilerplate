@@ -1,0 +1,24 @@
+{
+  "contractConfig": {
+    "name": "ExampleOFTV2"
+  },
+  "chainConfig": {
+    "bsc-testnet": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "goerli":  {
+          "minDstGasConfig": [100000, 160000]
+        }
+      }
+    },
+    "goerli": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "bsc-testnet":  {
+          "minDstGasConfig": [100000, 160000]
+        }
+      }
+    }
+  }
+}
+

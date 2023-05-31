@@ -1,0 +1,429 @@
+{
+	"goerli": {
+		"name": "ExampleOFT",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "bsc-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+			},
+			{
+				"remoteChain": "fuji",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 6,
+				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+			},
+			{
+				"remoteChain": "mumbai",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+			},
+			{
+				"remoteChain": "arbitrum-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+			},
+			{
+				"remoteChain": "optimism-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+			},
+			{
+				"remoteChain": "mumbai",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+			}
+		]
+	},
+	"bsc-testnet": {
+		"name": "ExampleOFT",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+			},
+			{
+				"remoteChain": "fuji",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 6,
+				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+			},
+			{
+				"remoteChain": "mumbai",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+			},
+			{
+				"remoteChain": "arbitrum-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+			},
+			{
+				"remoteChain": "optimism-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+			},
+			{
+				"remoteChain": "fantom-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 7,
+				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 5,
+				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+			}
+		]
+	},
+	"fuji": {
+		"name": "ExampleOFT",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xA30444B26C171B27c6B3698544490Affa2e12119",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 6,
+				"oracle": "0x92Cfdb3789693C2ae7225fCc2C263de94D630be4"
+			},
+			{
+				"remoteChain": "bsc-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xA30444B26C171B27c6B3698544490Affa2e12119",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 6,
+				"oracle": "0x92Cfdb3789693C2ae7225fCc2C263de94D630be4"
+			},
+			{
+				"remoteChain": "mumbai",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xA30444B26C171B27c6B3698544490Affa2e12119",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 6,
+				"oracle": "0x92Cfdb3789693C2ae7225fCc2C263de94D630be4"
+			},
+			{
+				"remoteChain": "arbitrum-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xA30444B26C171B27c6B3698544490Affa2e12119",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 6,
+				"oracle": "0x92Cfdb3789693C2ae7225fCc2C263de94D630be4"
+			},
+			{
+				"remoteChain": "optimism-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xA30444B26C171B27c6B3698544490Affa2e12119",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 6,
+				"oracle": "0x92Cfdb3789693C2ae7225fCc2C263de94D630be4"
+			},
+			{
+				"remoteChain": "fantom-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 7,
+				"relayer": "0xA30444B26C171B27c6B3698544490Affa2e12119",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 6,
+				"oracle": "0x92Cfdb3789693C2ae7225fCc2C263de94D630be4"
+			}
+		]
+	},
+	"optimism-goerli": {
+		"name": "ExampleOFT",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0x7F417F2192B89Cf93b8c4Ee01d558883A0AD7B47",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x97597016F7daC89e55005105FC755C0513973fA8"
+			},
+			{
+				"remoteChain": "bsc-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x7F417F2192B89Cf93b8c4Ee01d558883A0AD7B47",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x97597016F7daC89e55005105FC755C0513973fA8"
+			},
+			{
+				"remoteChain": "mumbai",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x7F417F2192B89Cf93b8c4Ee01d558883A0AD7B47",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x97597016F7daC89e55005105FC755C0513973fA8"
+			},
+			{
+				"remoteChain": "arbitrum-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0x7F417F2192B89Cf93b8c4Ee01d558883A0AD7B47",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x97597016F7daC89e55005105FC755C0513973fA8"
+			},
+			{
+				"remoteChain": "fuji",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 6,
+				"relayer": "0x7F417F2192B89Cf93b8c4Ee01d558883A0AD7B47",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x97597016F7daC89e55005105FC755C0513973fA8"
+			},
+			{
+				"remoteChain": "fantom-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 7,
+				"relayer": "0x7F417F2192B89Cf93b8c4Ee01d558883A0AD7B47",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x97597016F7daC89e55005105FC755C0513973fA8"
+			}
+		]
+	},
+	"arbitrum-goerli": {
+		"name": "ExampleOFT",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0x79c2127C2cF1c41cdd0E24e6Ba70b6F3308B7B79",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x9E13017d416cdf0816bcCaC744760Dd1C374cD20"
+			},
+			{
+				"remoteChain": "bsc-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x79c2127C2cF1c41cdd0E24e6Ba70b6F3308B7B79",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x9E13017d416cdf0816bcCaC744760Dd1C374cD20"
+			},
+			{
+				"remoteChain": "mumbai",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0x79c2127C2cF1c41cdd0E24e6Ba70b6F3308B7B79",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x9E13017d416cdf0816bcCaC744760Dd1C374cD20"
+			},
+			{
+				"remoteChain": "optimism-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0x79c2127C2cF1c41cdd0E24e6Ba70b6F3308B7B79",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x9E13017d416cdf0816bcCaC744760Dd1C374cD20"
+			},
+			{
+				"remoteChain": "fuji",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 6,
+				"relayer": "0x79c2127C2cF1c41cdd0E24e6Ba70b6F3308B7B79",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x9E13017d416cdf0816bcCaC744760Dd1C374cD20"
+			},
+			{
+				"remoteChain": "fantom-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 7,
+				"relayer": "0x79c2127C2cF1c41cdd0E24e6Ba70b6F3308B7B79",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 3,
+				"oracle": "0x9E13017d416cdf0816bcCaC744760Dd1C374cD20"
+			}
+		]
+	},
+	"fantom-testnet": {
+		"name": "ExampleOFT",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xDC28c9d36E8Be3A165f123DFc78ED96a5DDEfA6c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 7,
+				"oracle": "0x9b743B9846230b657546fB942C6b11a23cFecD9a"
+			},
+			{
+				"remoteChain": "bsc-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0xDC28c9d36E8Be3A165f123DFc78ED96a5DDEfA6c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 7,
+				"oracle": "0x9b743B9846230b657546fB942C6b11a23cFecD9a"
+			},
+			{
+				"remoteChain": "mumbai",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 10,
+				"relayer": "0xDC28c9d36E8Be3A165f123DFc78ED96a5DDEfA6c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 7,
+				"oracle": "0x9b743B9846230b657546fB942C6b11a23cFecD9a"
+			},
+			{
+				"remoteChain": "optimism-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xDC28c9d36E8Be3A165f123DFc78ED96a5DDEfA6c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 7,
+				"oracle": "0x9b743B9846230b657546fB942C6b11a23cFecD9a"
+			},
+			{
+				"remoteChain": "fuji",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 6,
+				"relayer": "0xDC28c9d36E8Be3A165f123DFc78ED96a5DDEfA6c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 7,
+				"oracle": "0x9b743B9846230b657546fB942C6b11a23cFecD9a"
+			},
+			{
+				"remoteChain": "arbitrum-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0xDC28c9d36E8Be3A165f123DFc78ED96a5DDEfA6c",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 7,
+				"oracle": "0x9b743B9846230b657546fB942C6b11a23cFecD9a"
+			}
+		]
+	},
+	"mumbai": {
+		"name": "ExampleOFT",
+		"sendVersion": 3,
+		"receiveVersion": 3,
+		"remoteConfigs": [
+			{
+				"remoteChain": "goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0x038b6098dA32957f2EbBF6dc743F0DC6810ac8C7",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAeC5E56217a963BDe38a3b6e0C3Cb5E864450C86"
+			},
+			{
+				"remoteChain": "bsc-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 5,
+				"relayer": "0x038b6098dA32957f2EbBF6dc743F0DC6810ac8C7",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAeC5E56217a963BDe38a3b6e0C3Cb5E864450C86"
+			},
+			{
+				"remoteChain": "fantom-testnet",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 7,
+				"relayer": "0x038b6098dA32957f2EbBF6dc743F0DC6810ac8C7",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAeC5E56217a963BDe38a3b6e0C3Cb5E864450C86"
+			},
+			{
+				"remoteChain": "optimism-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0x038b6098dA32957f2EbBF6dc743F0DC6810ac8C7",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAeC5E56217a963BDe38a3b6e0C3Cb5E864450C86"
+			},
+			{
+				"remoteChain": "fuji",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 6,
+				"relayer": "0x038b6098dA32957f2EbBF6dc743F0DC6810ac8C7",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAeC5E56217a963BDe38a3b6e0C3Cb5E864450C86"
+			},
+			{
+				"remoteChain": "arbitrum-goerli",
+				"inboundProofLibraryVersion": 2,
+				"inboundBlockConfirmations": 3,
+				"relayer": "0x038b6098dA32957f2EbBF6dc743F0DC6810ac8C7",
+				"outboundProofType": 2,
+				"outboundBlockConfirmations": 10,
+				"oracle": "0xAeC5E56217a963BDe38a3b6e0C3Cb5E864450C86"
+			}
+		]
+	}
+}

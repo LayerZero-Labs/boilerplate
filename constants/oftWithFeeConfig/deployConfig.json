@@ -1,0 +1,11 @@
+{
+	"ExampleOFTWithFee": {
+		"proxyContractName": "ExampleProxyOFTWithFee",
+		"proxyTokenName": "ExampleProxyOFTWithFee",
+		"proxyTokenSymbol": "OFTV2",
+		"contractName": "ExampleOFTWithFee",
+		"tokenName": "ExampleOFTWithFee",
+		"tokenSymbol": "OFTV2",
+		"sharedDecimals": "8"
+	}
+}
