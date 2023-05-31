@@ -591,10 +591,10 @@
     solidity-comments-extractor "^0.0.7"
     string-width "^4.2.3"
 
-"@layerzerolabs/solidity-examples@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/@layerzerolabs/solidity-examples/-/solidity-examples-0.0.7.tgz"
-  integrity sha512-q1C2b7zZuwbzesUHFJJJ2guEtQqL2N+Lyb7p6AQ6IeIa7iTp6C3/6pd0SIdAAkS4VmTzqKkt8O0Urc034cQ3Lg==
+"@layerzerolabs/solidity-examples@latest":
+  version "0.0.10"
+  resolved "https://registry.npmjs.org/@layerzerolabs/solidity-examples/-/solidity-examples-0.0.10.tgz#cb73feceec0efb0a7d711ab1cabfe2f8f9e9b3f1"
+  integrity sha512-+fE7FlM1LJRHCcBHzH/um5jh3TnTVnG8nyhj+Kt9OLrVXz8zV4DCbP0Ne7/rcnA6rWoVbdO0RoClcP3JgMtv7w==
   dependencies:
     "@openzeppelin/contracts" "^4.4.1"
     "@openzeppelin/contracts-upgradeable" "^4.6.0"
@@ -608,7 +608,7 @@
     hardhat-deploy-ethers "^0.3.0-beta.13"
     hardhat-gas-reporter "^1.0.6"
 
-"@layerzerolabs/ua-utils@^0.0.1":
+"@layerzerolabs/ua-utils@latest":
   version "0.0.1"
   resolved "https://registry.npmjs.org/@layerzerolabs/ua-utils/-/ua-utils-0.0.1.tgz#3ca8740b2808b88536fa8477e2ae5b3cb209b279"
   integrity sha512-SNBThhMD5P7t8RGGzKefJqfgkrpoe0ywzOgn2aSdq29eQdgEDHANHz4xCyb9+H5iGePwLkOqRpO9Qxv2gxpX+A==

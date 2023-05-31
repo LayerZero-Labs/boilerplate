@@ -1,6 +1,5 @@
 {
-  "name": "LayerZeroBoilerplate",
-  "version": "0.0.4",
+  "name": "LayerZero-boilerplate",
   "license": "MIT",
   "files": [
     "artifacts/",
@@ -14,8 +13,8 @@
   },
   "dependencies": {
     "@layerzerolabs/lz-sdk": "latest",
-    "@layerzerolabs/solidity-examples": "^0.0.7",
-    "@layerzerolabs/ua-utils": "^0.0.1",
+    "@layerzerolabs/solidity-examples": "latest",
+    "@layerzerolabs/ua-utils": "latest",
     "@nomiclabs/hardhat-etherscan": "3.0.3",
     "@openzeppelin/contracts": "^4.4.1",
     "cli-ux": "^6.0.9",
