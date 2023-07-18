@@ -574,7 +574,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@layerzerolabs/lz-sdk@latest":
+"@layerzerolabs/lz-sdk@0.0.12", "@layerzerolabs/lz-sdk@latest":
   version "0.0.12"
   resolved "https://registry.npmjs.org/@layerzerolabs/lz-sdk/-/lz-sdk-0.0.12.tgz"
   integrity sha512-ldf+H8SVUF9EtaQg9y7XzGDP95lH4T/UIYVglL2DrNBe5CBiWm5wkL/5SnGpTgbLHbw60eLaGxQH/wmO6txAiQ==
@@ -608,12 +608,18 @@
     hardhat-deploy-ethers "^0.3.0-beta.13"
     hardhat-gas-reporter "^1.0.6"
 
-"@layerzerolabs/ua-utils@latest":
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/@layerzerolabs/ua-utils/-/ua-utils-0.0.1.tgz#3ca8740b2808b88536fa8477e2ae5b3cb209b279"
-  integrity sha512-SNBThhMD5P7t8RGGzKefJqfgkrpoe0ywzOgn2aSdq29eQdgEDHANHz4xCyb9+H5iGePwLkOqRpO9Qxv2gxpX+A==
+"@layerzerolabs/ua-utils@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/@layerzerolabs/ua-utils/-/ua-utils-0.0.4.tgz#161cd54f78f7be09cd8ae35d9c82c73e36827aa9"
+  integrity sha512-fMtEMs9YQiaPeJALd5aXK1FfELagd77JiWf9NrJVQxXLlDO21d8FxyoYu32j2Wf9pJ8gXrpqKa0Q6kOc2lnRQQ==
   dependencies:
-    "@layerzerolabs/lz-sdk" latest
+    "@gnosis.pm/safe-core-sdk" "^2.0.0"
+    "@gnosis.pm/safe-core-sdk-types" "^1.0.0"
+    "@gnosis.pm/safe-ethers-lib" "^1.0.0"
+    "@gnosis.pm/safe-service-client" "1.1.1"
+    "@layerzerolabs/lz-sdk" "0.0.12"
+    chalk "4.1.2"
+    cli-ux "^6.0.9"
 
 "@metamask/eth-sig-util@^4.0.0":
   version "4.0.1"
@@ -2805,6 +2811,14 @@ chai@^4.3.4:
     pathval "^1.1.1"
     type-detect "^4.0.5"
 
+chalk@4.1.2, chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 chalk@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz"
@@ -2824,14 +2838,6 @@ chalk@^2.0.0, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
-
-chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
-  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
 
 chardet@^0.7.0:
   version "0.7.0"

@@ -9,7 +9,7 @@
   "dependencies": {
     "@layerzerolabs/lz-sdk": "latest",
     "@layerzerolabs/solidity-examples": "latest",
-    "@layerzerolabs/ua-utils": "latest",
+    "@layerzerolabs/ua-utils": "0.0.4",
     "@nomiclabs/hardhat-etherscan": "3.0.3",
     "@openzeppelin/contracts": "^4.4.1",
     "cli-ux": "^6.0.9",
