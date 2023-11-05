@@ -42,7 +42,7 @@ Then run the Wire Up Configuration to:
 npx hardhat wireAll --e testnet --config-path "./constants/oftConfig/wireUpConfig.json"
 ```
 
-### Send OFT accross chains
+### Send OFT across chains
 
 ```
 npx hardhat --network fuji oftSend --qty 100000000000000000 --target-network mumbai
@@ -71,7 +71,7 @@ Then run the Wire Up Configuration to:
 npx hardhat wireAll --e testnet --config-path "./constants/oftv2Config/wireUpConfig.json"
 ```
 
-### Send OFTV2 accross chains
+### Send OFTV2 across chains
 
 ```
 npx hardhat --network fuji oftv2Send --qty 100000000000000000 --target-network arbitrum-goerli
@@ -102,7 +102,7 @@ npx hardhat wireAll --e testnet --config-path "./constants/oftWithFeeConfig/wire
 ```
 
 
-### Send OFTV2 accross chains
+### Send OFTV2 across chains
 
 ```
 npx hardhat --network fuji oftv2Send --qty 100000000000000000 --target-network arbitrum-goerli
